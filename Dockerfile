@@ -5,7 +5,7 @@
 # Dockerfile template adapted from 
 # https://github.com/awslabs/amazon-sagemaker-examples/blob/master/advanced_functionality/scikit_bring_your_own/container/Dockerfile
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          wget \
